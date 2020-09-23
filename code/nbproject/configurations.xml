@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="resources" displayName="resources" projectFiles="true">
+      <logicalFolder name="models" displayName="models" projectFiles="true">
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/body.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/cone.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/cube.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/cylinder.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/doorA.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/doorB.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/glass.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/helix.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/plane.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/sphere.obj</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/models/triangle.obj</itemPath>
+      </logicalFolder>
+      <logicalFolder name="shaders" displayName="shaders" projectFiles="true">
+        <itemPath>dist/Debug/MinGW-Windows/resources/shaders/fshader.glsl</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/shaders/vshader.glsl</itemPath>
+      </logicalFolder>
+      <logicalFolder name="textures" displayName="textures" projectFiles="true">
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/Bump.jpg</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/Diffuse.tga</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/ec1351.bmp</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/helicopter.jpg</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/helipuerto.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgBodyDiffuse.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgChess.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgCubeDiffuse.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgCubeSpecular.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgEarth.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgEmissive.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgGold.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgGrass.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgGrassNormal.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgGrassSpecular.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgGrassT.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgLuces.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgNoEmissive.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgRobotDiffuse.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgRobotEmissive.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgRobotNormal.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgRobotSpecular.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgRock.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgRockNormal.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgRuby.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgWallDiffuse.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgWallNormal.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgWallSpecular.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/imgWindow.png</itemPath>
+        <itemPath>dist/Debug/MinGW-Windows/resources/textures/steel.jpg</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <itemPath>src/Model.cpp</itemPath>
+      <itemPath>src/Model.h</itemPath>
+      <itemPath>src/Shaders.cpp</itemPath>
+      <itemPath>src/Shaders.h</itemPath>
+      <itemPath>src/Terrain.cpp</itemPath>
+      <itemPath>src/Terrain.h</itemPath>
+      <itemPath>src/Texture.cpp</itemPath>
+      <itemPath>src/Texture.h</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+    <Elem>dist/Debug/MinGW-Windows/resources</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../libraries/includes</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../libraries/libs</pElem>
+          </linkerAddLib>
+          <commandLine>-lopengl32 -lglu32 -lglew32 -lfreeglut -lassimp -lfreeimage</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="dist/Debug/MinGW-Windows/resources/models/body.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/cone.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/cube.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/cylinder.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/doorA.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/doorB.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/glass.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/helix.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/plane.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/sphere.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/triangle.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/shaders/fshader.glsl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/shaders/vshader.glsl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/Bump.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/Diffuse.tga"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/ec1351.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/helicopter.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/helipuerto.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgBodyDiffuse.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgChess.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgCubeDiffuse.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgCubeSpecular.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgEarth.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgEmissive.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGold.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGrass.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGrassNormal.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGrassSpecular.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGrassT.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgLuces.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgNoEmissive.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRobotDiffuse.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRobotEmissive.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRobotNormal.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRobotSpecular.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRock.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRockNormal.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRuby.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgWallDiffuse.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgWallNormal.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgWallSpecular.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgWindow.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/steel.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Shaders.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Shaders.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Terrain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Terrain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="dist/Debug/MinGW-Windows/resources/models/body.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/cone.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/cube.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/cylinder.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/doorA.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/doorB.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/glass.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/helix.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/plane.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/sphere.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/models/triangle.obj"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/shaders/fshader.glsl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/shaders/vshader.glsl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/Bump.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/Diffuse.tga"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/ec1351.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/helicopter.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/helipuerto.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgBodyDiffuse.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgChess.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgCubeDiffuse.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgCubeSpecular.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgEarth.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgEmissive.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGold.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGrass.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGrassNormal.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGrassSpecular.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgGrassT.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgLuces.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgNoEmissive.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRobotDiffuse.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRobotEmissive.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRobotNormal.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRobotSpecular.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRock.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRockNormal.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgRuby.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgWallDiffuse.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgWallNormal.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgWallSpecular.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/imgWindow.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="dist/Debug/MinGW-Windows/resources/textures/steel.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Shaders.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Shaders.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Terrain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Terrain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
