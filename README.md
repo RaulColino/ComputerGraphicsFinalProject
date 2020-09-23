@@ -1,7 +1,7 @@
 # Computer Graphics final project
 OpenGL game engine made in C++.
 
-# Features:
+## Features:
 - Compatible with OpenGL 3.3 and above 
 - Phong illumination model implemented glsl shaders
 - Built in terrain generator with Perlin noise and hydraulic erosion
@@ -9,7 +9,7 @@ OpenGL game engine made in C++.
 - Emissive, normal, specular and diffuse textures
 - Transparent objects
 
-# Description 
+## Description 
 
 For this project i implemented a fully functional terrain generator, using Perlin noise and hydraulic erosion.
 I also added an helicopter 3d model (.obj) and unwrapped the UV with Blender to create a UV map and apply the textures.
@@ -36,14 +36,14 @@ You can adjust the coloring/texturing of different zones of the terrain (vegetat
 
 *It's my first project with OpenGL and C++ so the code may have bugs and not be optimal. Use it at your own risk.
 
-# Credits
+## Credits
 
 ❤️ Special thanks to Nick for inspiring me with his article: https://weigert.vsos.ethz.ch/2020/04/10/simple-particle-based-hydraulic-erosion/
 
 The hydraulic erosion algorithm coded in this project is an optimized version
 of the algorithm created by him: https://github.com/weigert/SimpleErosion
 
-# License
+## License
 
 MIT license
 
