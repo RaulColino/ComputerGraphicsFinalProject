@@ -53,7 +53,7 @@ of the algorithm created by him: https://github.com/weigert/SimpleErosion
 
 MIT license
 
-*This license does not apply for the textures and models used in the project. Textures and models used in this project have their respective licenses.*
+*This license does not apply for the textures and models used in the project. Textures and models used in this project have their owner's respective licenses.*
 
 
 
