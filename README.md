@@ -42,6 +42,18 @@ You can adjust the coloring/texturing of different zones of the terrain (vegetat
 
 *It's my first project with OpenGL and C++ so the code may have bugs and not be optimal. Use it at your own risk.
 
+## Controls
+
+| Key   |             Action              | 
+| :---: | :------------------------------:|
+| m     | render wireframe                |
+| e     | apply hydraulic erosion         | 
+| t/T   | adjust textures threshold       | 
+| G, g  | rotate helicopter around Y axis | 
+| ←↑→↓  | move helicopter (XY plane)      | 
+| P, p  | move helicopter (Y axis)        | 
+
+
 ## Credits
 
 ❤️ Special thanks to Nick for inspiring me with his article: https://weigert.vsos.ethz.ch/2020/04/10/simple-particle-based-hydraulic-erosion/
