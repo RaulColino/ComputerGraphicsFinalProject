@@ -1,6 +1,11 @@
 # Computer Graphics final project
 OpenGL game engine made in C++.
 
+<p>
+<img src="/media/img" alt="project screenshot" height="440" width="410"> 
+<img src="/media/img" alt="project screenshot" height="440" width="410">
+</p>
+
 ## Features:
 - Compatible with OpenGL 3.3 and above 
 - Phong illumination model implemented glsl shaders
