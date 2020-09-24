@@ -1,17 +1,13 @@
 # Computer Graphics final project
 OpenGL game engine made in C++.
-<!--
-![Banner Image](/media/only-noise.png)
-<p>
-<img src="/media/only-noise.png" alt="project screenshot" height="440" width="410"> 
-<img src="/media/noise+erosion.png" alt="project screenshot" height="440" width="410">
-</p> -->
+
+![noise+erosion img](/media/noise+erosion.png)
 
 ## Features:
 - Compatible with OpenGL 3.3 and above 
 - Phong illumination model implemented glsl shaders
 - Built in terrain generator with Perlin noise and hydraulic erosion
-- Terrain textures applied automatically depending on the height and slope of the terrain.
+- Terrain textures applied automatically depending on the height and slope of the terrain (Customizable).
 - Emissive, normal, specular and diffuse textures
 - Transparent objects
 - Animations
@@ -59,6 +55,19 @@ You can adjust the coloring/texturing of different zones of the terrain (vegetat
 | ←↑→↓  | move helicopter (XY plane)      | 
 | P, p  | move helicopter (Y axis)        | 
 
+## Showcase
+
+| Perlin noise only | Perlin noise + hydraulic erosion | 
+| :---------: | :------------------------:|
+| ![only noise img](/media/only-noise.png)  | ![noise+erosion img](/media/noise+erosion.png)  |
+
+|   wireframe   |
+| :------------------------: |
+| ![noise+erosion img](/media/wireframe.png) |
+
+| texture threshold levels | animated 3d model  | 
+| :---------: | :------------------------:|
+| ![texture adjustments](/media/textures.gif)  | ![animated 3d model img](/media/3dmodel.gif)  |
 
 ## Credits
 
