@@ -1,10 +1,11 @@
 # Computer Graphics final project
 OpenGL game engine made in C++.
-
+<!--
+![Banner Image](/media/only-noise.png)
 <p>
-<img src="/media/img" alt="project screenshot" height="440" width="410"> 
-<img src="/media/img" alt="project screenshot" height="440" width="410">
-</p>
+<img src="/media/only-noise.png" alt="project screenshot" height="440" width="410"> 
+<img src="/media/noise+erosion.png" alt="project screenshot" height="440" width="410">
+</p> -->
 
 ## Features:
 - Compatible with OpenGL 3.3 and above 
