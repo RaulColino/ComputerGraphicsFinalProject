@@ -57,9 +57,12 @@ You can adjust the coloring/texturing of different zones of the terrain (vegetat
 
 ## Showcase
 
-| Perlin noise only | Perlin noise + hydraulic erosion | 
+
+| Perlin noise only | Perlin noise + hydraulic erosion * | 
 | :---------: | :------------------------:|
 | ![only noise img](/media/only-noise.png)  | ![noise+erosion img](/media/noise+erosion.png)  |
+
+ **Result after the simulation of 8 million water drops (≈ 0.7s)*
 
 |   wireframe   |
 | :------------------------: |
